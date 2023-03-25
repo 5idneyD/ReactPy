@@ -1,0 +1,32 @@
+:root {
+  --dark: #0B1422;
+  --light: #46FF83;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.container {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 20vw auto;
+  background-color: var(--light);
+  text-align: center;
+}
+
+.navBar {
+  display: grid;
+  background-color: var(--dark);
+  grid-template-rows: 30vh auto auto auto 40vh;
+  color: var(--light);
+  font-size: x-large;
+}
+
+.innerContainer {
+  display: grid;
+  grid-template-rows: 10vh auto ;
+  color: var(--dark);
+  padding-top: 5%;
+}

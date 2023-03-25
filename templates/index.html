@@ -2,10 +2,14 @@
 <html lang="en">
   <head>
     <title>My Flask-React App</title>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
   </head>
   <body>
     <div id="root"></div>
-    <p>{{msg}}</p>
+
     <script src="{{ url_for('static', filename='index.js') }}"></script>
   </body>
 </html>

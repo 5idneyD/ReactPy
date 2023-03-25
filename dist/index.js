@@ -23512,7 +23512,7 @@
   var import_react_dom = __toESM(require_react_dom());
   var ReactDOMClient = __toESM(require_client());
   function App() {
-    return /* @__PURE__ */ import_react.default.createElement("div", null, /* @__PURE__ */ import_react.default.createElement("h2", null, "This is a flask and react boilerplate"), /* @__PURE__ */ import_react.default.createElement("h2", null, "We use esbuild as a bundler as it is super fast"));
+    return /* @__PURE__ */ import_react.default.createElement("div", null, /* @__PURE__ */ import_react.default.createElement("div", { className: "container" }, /* @__PURE__ */ import_react.default.createElement("div", { className: "navBar" }, /* @__PURE__ */ import_react.default.createElement("div", null), /* @__PURE__ */ import_react.default.createElement("div", null, "Sign Up"), /* @__PURE__ */ import_react.default.createElement("div", null, "Login"), /* @__PURE__ */ import_react.default.createElement("div", null, "About Us"), /* @__PURE__ */ import_react.default.createElement("div", null)), /* @__PURE__ */ import_react.default.createElement("div", { className: "innerContainer" }, /* @__PURE__ */ import_react.default.createElement("div", null, /* @__PURE__ */ import_react.default.createElement("h1", null, /* @__PURE__ */ import_react.default.createElement("u", null, "Basic Accounting"))), /* @__PURE__ */ import_react.default.createElement("div", null, /* @__PURE__ */ import_react.default.createElement("h2", null, "Welcome to Our Accounting Software!", /* @__PURE__ */ import_react.default.createElement("br", null), "This software has been built by hand by accountants for accountants")))));
   }
   var container = document.getElementById("root");
   var root = ReactDOMClient.createRoot(container);
